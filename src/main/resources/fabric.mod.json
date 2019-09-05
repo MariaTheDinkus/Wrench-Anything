@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "wrenchanything",
+  "version": "${version}",
+
+  "name": "Wrench Anything",
+  "description": "A small wrench mod that supports Wrenchable.",
+  "authors": [
+    "Zundrel"
+  ],
+  "contact": {
+    "homepage": "http://zundrel.com/",
+    "sources": "https://github.com/Zundrel/Wrench-Anything",
+	"issues": "https://github.com/Zundrel/Wrench-Anything/issues"
+  },
+
+  "license": "MIT",
+  "icon": "assets/wrenchanything/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.zundrel.wrenchanything.WrenchAnything"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.4.0",
+    "fabric": "*"
+  },
+  "custom": {
+    "modmenu:api": false,
+    "modmenu:clientsideOnly": false
+  }
+}
