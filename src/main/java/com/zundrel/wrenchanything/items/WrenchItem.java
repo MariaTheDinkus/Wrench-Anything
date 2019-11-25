@@ -23,7 +23,7 @@ public class WrenchItem extends Item implements Wrench {
 
     @Override
     public boolean canRepair(ItemStack itemStack_1, ItemStack itemStack_2) {
-        return WrenchAnythingConfig.hasDurability && ToolMaterials.IRON.getRepairIngredient().method_8093(itemStack_2);
+        return WrenchAnythingConfig.hasDurability && ToolMaterials.IRON.getRepairIngredient().test(itemStack_2);
     }
 
     @Override
